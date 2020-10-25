@@ -79,41 +79,53 @@
   </div>
 </div>
 <div class="container">
-<h1>ConsoleChat.io - Underground developer meeting room.</h1>
+<h1>ConsoleChat.io - The Underground Meeting Room.</h1>
 
-<p style="font-style: italic;">ConsoleChat started as a joke, and is now released in early BETA. Try it out and have fun!</p>
-<p>ConsoleChat turns browsers' console into a global real-time chat that connects developers from websites.</p>
-<p>Support the developer community and let developers from all websites that are using ConsoleChat chat directly on console when using your website!</p>
+<p>ConsoleChat.io turns browser's console into a global real-time chat that. If you're browsing a site that uses ConsoleChat.io you don't need to install any software - just open up your console and join the pit!</p>
+<p>ConsoleChat.io is a project that started as a joke. Due to the encouraging feedback, we are going to develop it further. We are now in BETA, and things might occasionally be broken or down.</p><p style="font-style: italic;">Try it out and have fun!</p>
 <br>
 <h2>Install</h2>
 
-<p>ConsoleChat works on websites that have intalled the ConsoleChat javascript snippet. To unleash the power of developer community on your website, simply insert the below script to your source code (body or head) and you're good to go</p>
+<p>ConsoleChat works on websites that have installed the ConsoleChat javascript snippet. To unleash the power of web communities on your website, simply insert the below script to your source code (body or head), and you're good to go</p>
 
 <pre><code class="language-html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://cdn.consolechat.io/console-chat-min.js"</span>&gt;&lt;/script&gt;</span></code></pre>
 <br>
 <h2>How it works</h2>
-<p>Use the below functions in browser's console </p>
+<p>Use the below functions in browser's console for chatting and commanding ConsoleChat.io</p>
 
 <p>1. Launch the chat</p>
 <pre><code class="language-html">consolechat.start()</code></pre>
 <p>2. Set your username</p>
-<pre><code class="language-html">consolechat.username('Your cool username')</code></pre>
+<pre><code class="language-html">consolechat.username('Your sucker username')</code></pre>
 <p>3. Say something</p>
 <pre><code class="language-html">consolechat.say('BOOM!')</code></pre>
+<p>4. Talk only to the users on the site you are currently browsing (current tab)</p>
+<pre><code class="language-html">consolechat.onsite()</code></pre>
+<p>5. Go back to public channel</p>
+<pre><code class="language-html">consolechat.public()</code></pre>
+<p>6. Send a private mesage to a user</p>
+<pre><code class="language-html">consolechat.msg('Your wannabee friend', 'Your VIP message')</code></pre>
+<p>7. Join a channel. Or create one of the channel does not exist yet.</p>
+<pre><code class="language-html">consolechat.join('VC money channel')</code></pre>
+<p>8. Leave a channel</p>
+<pre><code class="language-html">consolechat.leave()</code></pre>
+<p>9. Get insturctions</p>
+<pre><code class="language-html">consolechat.help()</code></pre>
+<p>10. Close ConsoleChat.io</p>
+<pre><code class="language-html">consolechat.close()</code></pre>
 
 <p>Go on and try it out on this site!</p>
 <br>
 
 <h2>Welcome to the jungle</h2>
-<p>I don't take any responsibility for the content that users publish in ConsoleChat, naughty you.</p>
+<p>We don't take any responsibility for what happens on ConsoleChat.io chat or for the content that users publish on ConsoleChat.io.</p>
 <br>
 <h2>Privacy</h2>
 
-<p>This site uses privacy-friendly Simple Analytics for web analtyics. You can read Simple Analytic's privacy policy <a target="_blank" href="https://simpleanalytics.com/privacy">here</a>.</p>
+<p>This site uses privacy-friendly Simple Analytics for web analytics. You can read Simple Analytic's privacy policy <a target="_blank" href="https://simpleanalytics.com/privacy">here</a>.</p>
 <p>This site doesn't collect or store any personal information. </p>
-<p>This site doesn't use cookies.</p>
-
-<p>ConsoleChat doesn't track, store, or log any messages or usernames </p>
+<p>This site doesn't use 3rd party tracking cookies.</p>
+<p>ConsoleChat doesn't track, store, or log any messages or usernames.</p>
 <p>ConsoleChat script uses Socket.io for client to server communications. You can read Socket.io's privacy policy <a href="https://socketserve.io/privacy-policy.html" target="_blank">here</a>.</p>
 
     <br>
