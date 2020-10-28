@@ -144,13 +144,19 @@
 <pre><code class="language-html">consolechat.public()</code></pre>
 <p>6. Send a private mesage to a user</p>
 <pre><code class="language-html">consolechat.msg('username', 'Your hush hush message')</code></pre>
-<p>7. Join a channel. Or create one of the channel does not exist yet.</p>
-<pre><code class="language-html">consolechat.join('VC money channel')</code></pre>
-<p>8. Leave a channel</p>
+<p>7. List all available public channels</p>
+<pre><code class="language-html">consolechat.list()</code></pre>
+<p>8. Join a channel. Or create one of the channel does not exist yet.</p>
+<pre><code class="language-html">consolechat.join('channel name')</code></pre>
+<p>9. Create/Join a private channel that will not be visible via consolechat.list() command.</p>
+<pre><code class="language-html">consolechat.join('channel name', 'private')</code></pre>
+<p>10. List all users currently online on the channel</p>
+<pre><code class="language-html">consolechat.who()</code></pre>
+<p>11. Leave a channel</p>
 <pre><code class="language-html">consolechat.leave()</code></pre>
-<p>9. Get insturctions</p>
+<p>12. Get insturctions</p>
 <pre><code class="language-html">consolechat.help()</code></pre>
-<p>10. Close ConsoleChat.io</p>
+<p>13. Close ConsoleChat.io</p>
 <pre><code class="language-html">consolechat.close()</code></pre>
 
 <p>Go on and try it out on this site!</p>
